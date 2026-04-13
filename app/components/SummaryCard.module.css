@@ -1,0 +1,66 @@
+.card {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 30px;
+  width: 50%;
+}
+
+.card h3 {
+  margin-bottom: 20px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+/* Colores por categoría */
+.reaction {
+  background: #fff6f5;
+  color: #ff5757;
+}
+
+.memory {
+  background: #fffbf2;
+  color: #ffb01f;
+}
+
+.verbal {
+  background: #f2fbfa;
+  color: #00bd91;
+}
+
+.visual {
+  background: #f3f3fd;
+  color: #1125d6;
+}
+
+.score {
+  color: #303b59;
+}
+
+.score span {
+  opacity: 0.5;
+}
+
+/* Botón */
+.btn {
+  width: 100%;
+  margin-top: 25px;
+  padding: 15px;
+  border: none;
+  border-radius: 30px;
+  background: #303b59;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: linear-gradient(180deg, #7857ff, #2e2be9);
+}

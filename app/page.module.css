@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  max-width: 700px;
+  margin: 100px auto;
+  border-radius: 30px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+/* Responsive EXACTO */
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+    border-radius: 0;
+  }
+}
