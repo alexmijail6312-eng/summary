@@ -64,3 +64,13 @@
 .btn:hover {
   background: linear-gradient(180deg, #7857ff, #2e2be9);
 }
+.left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.left img {
+  width: 20px;
+  height: 20px;
+}

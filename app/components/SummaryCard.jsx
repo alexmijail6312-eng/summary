@@ -8,11 +8,18 @@ export default function SummaryCard() {
 
       {data.map((item, i) => (
         <div key={i} className={`${styles.item} ${styles[item.category.toLowerCase()]}`}>
-          <span>{item.category}</span>
+          
+          {/* LADO IZQUIERDO */}
+          <div className={styles.left}>
+            <img src={item.icon} alt={item.category} />
+            <span>{item.category}</span>
+          </div>
 
+          {/* LADO DERECHO */}
           <span className={styles.score}>
             {item.score} <span>/ 100</span>
           </span>
+
         </div>
       ))}
 
